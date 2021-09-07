@@ -1,0 +1,20 @@
+ /*
+        $file_properties = getimagesize($file_temp_name);
+        $file_type = $file_properties[2];
+        $file_width = $file_properties[0];
+        $file_height = $file_properties[1];
+
+        switch($file_type) {
+            case IMAGETYPE_JPEG:
+                $img_type = imagecreatefromjpeg($file_temp_name);
+                $img_layer = resize_user_image($img_type,$file_width,$file_height);
+                imagejpeg($img_layer,$file_to_saved);
+                break;
+            case IMG_JPG:
+                $img_type = imagecreatefromjpeg($file_temp_name);
+                $img_layer = resize_user_image($img_type,$file_width,$file_height);
+                imagejpeg($img_layer,$file_to_saved);
+                break;
+            default:
+                break;
+        }*/
