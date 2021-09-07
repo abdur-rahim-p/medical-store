@@ -7,3 +7,4 @@ Dashboard Login -
     URL - https://localhost/medicalstore.com/admin/
     Username - admin
     Password - admin123    
+Database - MySql
